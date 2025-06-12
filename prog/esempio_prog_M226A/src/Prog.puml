@@ -1,0 +1,8 @@
+@startuml
+class Kebab{
+}
+class MenuItem{
+}
+'la associazione si dichiara con -- come di seguito
+Kebab"1" -- "1" MenuItem
+@enduml

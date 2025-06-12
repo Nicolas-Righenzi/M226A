@@ -1,0 +1,45 @@
+@startuml
+
+class MenuItem {
+  - nome
+  - prezzo
+  + MenuItem(nome, prezzo)
+  + getNome()
+  + getPrezzo()
+  + toString()
+  + equals(Object)
+  + hashCode()
+}
+
+class Kebab {
+  - ingredienti
+  + Kebab()
+  + aggiungiIngrediente(MenuItem)
+  + calcolaPrezzoTotale()
+  + getIngredienti()
+  + toString()
+}
+
+class Ordine {
+  - numeroOrdine
+  - kebab
+  - data
+  + Ordine(Kebab)
+  + stampaScontrino()
+  + getNumeroOrdine()
+  + getKebab()
+}
+
+class Main {
+  + main(String[] args)
+  - creaMenuBase()
+  - chiediSiNo(Scanner, String)
+}
+
+Kebab --> MenuItem
+Ordine --> Kebab
+Main --> Ordine
+Main --> Kebab
+Main --> MenuItem
+
+@enduml

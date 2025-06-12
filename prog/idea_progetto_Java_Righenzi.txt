@@ -1,0 +1,27 @@
+
+	Nicolas Righenzi									I2AA									01.05.2025
+	
+											Idee Progetto finale Java
+					
+	idea 1:
+				Ordinazione Kebabbaro
+			
+		Programma che fara:
+					
+					Saluti all'utente("Presentazione")
+					verra chiesto per la creazione di un kebab personalizzato La risposta verra presa tramite scanner
+					in caso di kebab personalizzato verranno fatte delle domande all'utente come " vuoi cipolla" e i vari ingredienti inseriti nel kebab faranno variare il prezzo
+					viene generato un numero di ordine che ogni gorno si azzera e verra inseritop nello scontrino 
+					è possibile stampare lo scontrino che conterrà dati come data pagamento e ingredienti usati con i vari prezzi e il totale speso;
+					
+					
+		Classi:
+		
+					- MenuItem (conterrà gli ingredienti aggiungibili per il kebab personalizzato, quindi rappresenta un solo ingrediente)
+					- Kebab	(Rappresenta il kebab che puo esssere completo o personalizzato quindi sarà composto da piu ingredienti)
+					- Ordine (contiene i dati per lo sconrino come il numero dell'ordine, la data, i dati sul kebab che sarà se è completo o personalizzato e i suoi ingredienti)
+					- Main (All'interno ci sarà lo scanner che legge l'input da tastiera dell'utente e risponde)
+					
+		Tempistica:
+					
+					Previste 27 ore circa di lavoro.
